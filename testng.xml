@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParallelTestCase" parallel="tests">
+    <groups>
+        <run>
+            <include name=""/>
+        </run>
+    </groups>
+    <test name="@Parallel" parallel="classes">
+
+        <parameter name="browser" value="firefox"/>
+        <classes>
+
+            <class name="practice.FirstTest">
+                <methods>
+                    <include name=""/>
+                    <include name=""/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="@Para" parallel="classes">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="practice.RunParallelTest"/>
+        </classes>
+    </test>
+</suite>

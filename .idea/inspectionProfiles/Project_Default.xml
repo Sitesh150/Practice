@@ -1,0 +1,53 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="AutoCloseableResource" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="METHOD_MATCHER_CONFIG" value="java.util.Formatter,format,java.io.Writer,append,com.google.common.base.Preconditions,checkNotNull,org.hibernate.Session,close,java.io.PrintWriter,printf,java.io.PrintStream,printf,com.microsoft.playwright.Playwright,create,com.microsoft.playwright.BrowserType,launch" />
+    </inspection_tool>
+    <inspection_tool class="ThrowablePrintStackTrace" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Tests" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="Practice" />
+          <option value="Practice" />
+          <option value="Practice" />
+          <option value="Practice" />
+          <option value="Practice" />
+          <option value="Practice" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="junit:junit:4.13" />
+          <option value="com.fasterxml.jackson.core:jackson-databind:2.10.1" />
+          <option value="com.googlecode.owasp-java-html-sanitizer:owasp-java-html-sanitizer:20191001.1" />
+          <option value="commons-collections:commons-collections:3.2.2" />
+          <option value="org.apache.velocity:velocity-engine-core:2.1" />
+          <option value="org.jsoup:jsoup:1.12.1" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="groupsTestNG" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="groups">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="smoke" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
